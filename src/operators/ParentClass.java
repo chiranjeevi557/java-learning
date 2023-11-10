@@ -1,2 +1,5 @@
-package operators;public class ParentClass {
+package operators;
+
+public class ParentClass {
+
 }

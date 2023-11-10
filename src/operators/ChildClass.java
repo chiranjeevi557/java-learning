@@ -1,2 +1,4 @@
-package operators;public class ChildClass {
+package operators;
+
+public class ChildClass extends ParentClass{
 }

@@ -1,0 +1,66 @@
+what is java ?
+
+*platform independent
+*oops
+*portability[WORA]
+WORA-write once, run anywhere
+
+How java gets WORA ?
+Generally in java we have three main components
+1.JVM
+2.JRE
+3.JDK
+
+1.JVM(Java Virtual Machine):-
+*it is an abstract machine(not physically exists)
+
+java           -> compiler   ->ByteCode    ->JVM    ->Machine code   ->CPU   ->OutPut
+program
+
+*because of jvm only we get portability
+*jvm  - platform dependent (each os has specific jvm)
+*java program - platform independent
+*JVM has JIT(just in time) compiler which will helps to convert bytecode into machine code
+
+java program(Student.java)  -> compile ---> Student.class(contains bytecode)(now we can run this byte in any machine which has jvm)
+
+2.JRE(Java Runtime Environment):
+
+JVM + Class Libraries(java.Math,java.Util etc)
+
+*suppose if the byte code has any built in methods jvm can be resolved by getting all those from libraries
+
+JDK:
+
+*it has program language specifications
+
+*it has compiler(javac)
+
+*it has debugger
+
+JDK = JRE + (program languages + compiler + debugger)
+
+jvm,jdk,jre -----> platform dependent
+
+code  ----> Bytecode(platform independent)
+
+JSE(Java Standard Edition)--->Core Java
+JEE(Java Enterprise Edition / Jakarta EE)--->Database,servlets,jsp,building API's
+JME(Java Micro/Mobile Edition)--->API's for mobile Applications
+
+First Java Program:
+*File Name(Student.java) == Class Name(class Student)
+*one file have only one public class
+
+Class Structure:
+*.Generally a class has following things
+ 1.Variables
+ 2.Methods
+ 3.oops.constructor.Constructors
+ 4.Nested Class or Inner Class
+
+*main() is the starting point of the program
+*After converting to bytecode jvm calls main() method
+
+
+
